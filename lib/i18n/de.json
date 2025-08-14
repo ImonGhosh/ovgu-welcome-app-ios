@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "appName": "Welcome to OVGU"
+  },
+  "features(interface=FeatureName)": {
+    "map": {
+      "short": "Campus",
+      "long": "Campusplan"
+    },
+    "myEvents": {
+      "short": "My Events",
+      "long": "Meine Events"
+    },
+    "mensa": {
+      "short": "Mensa",
+      "long": "Mensa"
+    },
+    "links": {
+      "short": "Links",
+      "long": "Links"
+    },
+    "handbook": {
+      "short": "Handbuch",
+      "long": "Handbuch"
+    },
+    "audio": {
+      "short": "Guides",
+      "long": "Audio-Guides"
+    },
+    "faq": {
+      "short": "FAQ",
+      "long": "FAQ"
+    },
+    "contacts": {
+      "short": "Kontakte",
+      "long": "Kontakte"
+    },
+    "emails": {
+      "short": "E-Mails",
+      "long": "E-Mails"
+    }
+  },
+  "welcome": {
+    "title": "@:meta.appName",
+    "intro": "Herzlich willkommen in unserer App! Hier erhältst du alle wichtigen Informationen über das Leben an der Uni Magdeburg gebündelt und übersichtlich an einem Ort.",
+    "selectLanguage": "Sprache auswählen:",
+    "english": "Englisch",
+    "german": "Deutsch",
+    "start": "App Starten",
+    "loading": "Lade Daten..."
+  },
+  "tutorial": {
+    "steps": [
+      "Das ist der Startbildschirm.\nHier findest du die neuesten Nachrichten.",
+      "Auf der 2. Seite gibt es den Kalender, damit du kein Event verpasst!",
+      "Auf der 3. Seite ist eine Liste von allen Funktionen dieser App.",
+      "Wenn du eine Funktion häufig benutzt, dann tippe rechts auf das Herz.",
+      "Die Funktionen mit den Herzen erscheinen hier.",
+      "Das wäre alles.\nJetzt viel Spaß mit der App! :)"
+    ],
+    "skip": "Schließen",
+    "next": "Weiter",
+    "done": "Fertig"
+  },
+  "main": {
+    "bottomBar": [
+      "Home",
+      "Kalender",
+      "Funktionen",
+      "Einst."
+    ],
+    "home": {
+      "nextEvents": {
+        "one": "Nächstes Event",
+        "other": "Nächste Events"
+      },
+      "news": "Neuigkeiten"
+    },
+    "calendar": {
+      "title": "Kalender",
+      "events": "Events"
+    },
+    "features": {
+      "title": "Funktionen",
+      "info": "Du verwendest eine Funktion sehr häufig?\nMit dem Herz gelangen Sie auf dem Startbildschirm."
+    },
+    "settings": {
+      "title": "Einstellungen",
+      "language": "Sprache",
+      "account": "OVGU-Account",
+      "sync": "Synchronisation",
+      "reset": "Daten zurücksetzen",
+      "licenses": "Lizenzen",
+      "about": "Über die App",
+      "dev": "Entwickler-Einstellungen"
+    }
+  },
+  "about": {
+    "title": "Über die App",
+    "main": "Die @:meta.appName-App ist eine Initiative des Akademischen Auslandsamtes der Otto-von-Guericke-Universität Magdeburg mit dem Ziel, die Digitalisierung an der Universität voranzutreiben und den Studienalltag - insbesondere für internationale Studierende - zu erleichtern.",
+    "idea": {
+      "title": "Idee",
+      "people": [
+        "M.A. Anne-Katrin Güldenpfennig",
+        "Christin Scheil",
+        "IKUS",
+        "Wohnheimtutoren des Studentenwerks",
+        "Fachschaftrat der Informatik"
+      ]
+    },
+    "technicalImplementation": {
+      "title": "Technische Umsetzung",
+      "people": [
+        "Tien Do Nam<br>August 2020 - heute<br>ehemaliger Student an der FIN<br><a href=\"https://tiendonam.de\">tiendonam.de</a>"
+      ]
+    },
+    "contribute": "Die App ist open source.<br>Du kannst <a href=\"https://github.com/Tienisto/ikus-app\">hier</a> den Quellcode anschauen.<br><a href=\"https://github.com/Tienisto/ikus-app/issues\">Issues</a> oder <a href=\"https://github.com/Tienisto/ikus-app/pulls\">Pull Requests</a> sind willkommen."
+  },
+  "contacts": {
+    "title": "Kontakte"
+  },
+  "event": {
+    "title": "Event",
+    "registration": {
+      "title": "Registrierung",
+      "slots": "$registered/$slots Personen",
+      "status": {
+        "open": "OFFEN",
+        "registered": "ANGEMELDET",
+        "waitingList": "WARTELISTE ($position)",
+        "full": "VOLL",
+        "closed": "GESCHLOSSEN"
+      },
+      "register": "Anmelden",
+      "cancel": "Abmelden",
+      "canceling": "Abmelden..."
+    },
+    "when": "Wann?",
+    "to": "bis",
+    "where": "Wo?"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "search": "Frage suchen...",
+    "suggestions": "Vorschläge",
+    "noResults": "Keine Ergebnisse."
+  },
+  "handbook": {
+    "title": "Handbuch",
+    "wip": "Handbuch ist in Arbeit."
+  },
+  "links": {
+    "title": "Hilfreiche Links"
+  },
+  "mails": {
+    "title": "E-Mails",
+    "alpha": "Immer noch in alpha. Es wird noch optimiert.",
+    "actions": {
+      "account": "Account",
+      "sync": "Laden",
+      "send": "Senden"
+    },
+    "inbox": "Posteingang",
+    "sent": "Gesendet",
+    "sync": "Synchronisieren: $text",
+    "deleting": "Löschen...",
+    "replyPrefix": "von "
+  },
+  "mailMessage": {
+    "title": "E-Mail"
+  },
+  "mailMessageSend": {
+    "title": "E-Mail senden",
+    "from": "Von",
+    "to": "An",
+    "cc": "CC",
+    "subject": "Betreff",
+    "content": "Inhalt",
+    "send": "Senden",
+    "sending": "E-Mail wird gesendet...",
+    "errors": {
+      "missingFrom": "Von-Adresse fehlt",
+      "missingTo": "An-Adresse fehlt",
+      "missingSubject": "Betreff fehlt",
+      "missingContent": "Inhalt fehlt"
+    }
+  },
+  "map": {
+    "title": "Campusplan",
+    "main": "Hauptcampus",
+    "med": "Medizin-Campus"
+  },
+  "mensa": {
+    "title": "Mensa",
+    "locations": {
+      "uniCampusDown": "UniCampus\nUnterer Saal",
+      "uniCampusUp": "UniCampus\nOberer Saal",
+      "zschokke": "Kellercafé\nZschokkestraße",
+      "herrenkrug": "Café\nHerrenkrug",
+      "pier16": "Café\nPier 16"
+    },
+    "lastUpdate": "Stand: $timestamp",
+    "today": "Heute, $date",
+    "tomorrow": "Morgen, $date",
+    "noData": "Keine Daten verfügbar...",
+    "tags": {
+      "vegan": "Vegan",
+      "vegetarian": "Vegetarisch",
+      "garlic": "Knoblauch",
+      "fish": "Fisch",
+      "chicken": "Huhn",
+      "beef": "Rind",
+      "pig": "Schwein",
+      "soup": "Suppe",
+      "alcohol": "Alkohol",
+      "sides": "Beilagen"
+    }
+  },
+  "myEvents": {
+    "title": "Meine Events",
+    "info": "Du kannst Events mit einem Herzchen versehen. Diese Events erscheinen hier und unter \"Nächsten Events\" auf der Startseite."
+  },
+  "registerEvent": {
+    "title": "Event anmelden",
+    "matriculationNumber": "Matrikel-Nr.",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "country": "Heimatland",
+    "register": "Anmelden",
+    "registering": "Anmelden...",
+    "disclaimer": "Eine Weitergabe der Daten an Dritte findet nicht statt. Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind.",
+    "errors": {
+      "validation": "Bitte alle Felder ausfüllen.",
+      "closed": "Registrierung geschlossen.",
+      "full": "Plätze voll."
+    }
+  },
+  "ovguAccount": {
+    "title": "OVGU-Account",
+    "info": "Du kannst auf deine E-Mails zugreifen, sobald du dich mit deinem OVGU-Account anmeldest.",
+    "loginCredentials": "Login-Daten",
+    "name": "Name",
+    "password": "Passwort",
+    "login": "Login",
+    "loggedInAs": "Eingeloggt als",
+    "logout": "Abmelden",
+    "privacy": "Deine Login-Daten werden verschlüsselt und nur auf deinem Gerät gespeichert.",
+    "authenticating": "Authentifizierung"
+  },
+  "audioList": {
+    "title": "Audio-Guides",
+    "empty": "In Arbeit."
+  },
+  "audio": {
+    "title": "Audio-Guide"
+  },
+  "post": {
+    "title": "Beitrag"
+  },
+  "sync": {
+    "title": "Synchronisation",
+    "info": "Diese App lädt regelmäßig Daten vom Server herunter, damit du auf dem neusten Stand bleibst. Du kannst die App mit den lokal gespeicherten Daten offline verwenden.",
+    "items": {
+      "news": "Neuigkeiten",
+      "calendar": "Kalender",
+      "mensa": "Mensa",
+      "links": "Links",
+      "handbook": "Handbuch",
+      "audio": "Audio",
+      "faq": "FAQ",
+      "contact": "Kontakte",
+      "emails": "E-Mails",
+      "appConfig": "App-Konfiguration"
+    }
+  },
+  "dev": {
+    "title": "Entwickler-Einstellungen"
+  },
+  "changeLanguage": {
+    "title": "Deutsche Daten laden..."
+  },
+  "components": {
+    "eventCard": {
+      "noPlace": "Kein Ort angegeben"
+    },
+    "mapWithMarker": {
+      "openMapApp": "Navigation"
+    }
+  },
+  "popups": {
+    "channel": {
+      "title": "Kanäle",
+      "all": "Alle"
+    },
+    "date": {
+      "normal": "Folgende Events gibt es an diesem Tag:",
+      "empty": "Es gibt keine Events an diesem Tag."
+    },
+    "error": {
+      "title": "Ein Fehler ist aufgetreten.",
+      "ok": "OK"
+    },
+    "eventAdded": {
+      "title": "Event markiert",
+      "content": "\"$event\" wurde zu deine persönliche Liste hinzugefügt.",
+      "undo": "Rückgängig",
+      "list": "Zur Liste",
+      "ok": "Okay"
+    },
+    "eventPast": {
+      "title": "Event ist schon vorbei",
+      "info": "Du kannst nur Events hinzufügen, die in der Zukunft liegen.",
+      "ok": "OK"
+    },
+    "eventUnregister": {
+      "title": "Anmeldung löschen",
+      "info": "Du wirst deine aktuelle Position in der Liste verlieren.",
+      "cancel": "Abbrechen",
+      "delete": "Löschen"
+    },
+    "handbook": {
+      "title": "Inhaltsverzeichnis",
+      "page": "S. $page"
+    },
+    "mailDelete": {
+      "title": "E-Mail löschen",
+      "info": "Bist du dir sicher?",
+      "delete": "Löschen",
+      "cancel": "Abbrechen"
+    },
+    "mailPeople": {
+      "title": "Personen",
+      "from": "Von",
+      "to": "An",
+      "cc": "CC"
+    },
+    "mensaOpeningHours": {
+      "title": "Öffnungszeiten"
+    },
+    "needUpdate": {
+      "title": "Update notwendig",
+      "info": "Es werden die Offline-Daten verwendet, solange du die App nicht auf die neuste Version aktualisierst.",
+      "ok": "OK"
+    },
+    "reset": {
+      "title": "Daten zurücksetzen",
+      "content": "Die App wird auf den Werkszustand gebracht. Fortsetzen?",
+      "reset": "Zurücksetzen",
+      "cancel": "Abbrechen"
+    },
+    "wip": {
+      "title": "In Arbeit",
+      "ok": "OK"
+    }
+  },
+  "notifications": {
+    "newMail": {
+      "title": {
+        "one": "Neue E-Mail",
+        "other": "$n neue E-Mails"
+      }
+    }
+  },
+  "timeFormat": "$time Uhr"
+}

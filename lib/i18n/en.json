@@ -1,0 +1,367 @@
+{
+  "meta": {
+    "appName": "Welcome to OVGU"
+  },
+  "features(interface=FeatureName)": {
+    "map": {
+      "short": "Campus",
+      "long": "Campus Map"
+    },
+    "myEvents": {
+      "short": "My Events",
+      "long": "My Events"
+    },
+    "mensa": {
+      "short": "Mensa",
+      "long": "Mensa"
+    },
+    "links": {
+      "short": "Links",
+      "long": "Links"
+    },
+    "handbook": {
+      "short": "Handbook",
+      "long": "Handbook"
+    },
+    "audio": {
+      "short": "Guides",
+      "long": "Audio Guides"
+    },
+    "faq": {
+      "short": "FAQ",
+      "long": "FAQ"
+    },
+    "contacts": {
+      "short": "Contacts",
+      "long": "Contacts"
+    },
+    "emails": {
+      "short": "Emails",
+      "long": "Emails"
+    }
+  },
+  "welcome": {
+    "title": "@:meta.appName",
+    "intro": "You've just enrolled at Magdeburg University? With this app, you get an overview of all important information about life at OVGU.",
+    "selectLanguage": "Select language:",
+    "english": "English",
+    "german": "German",
+    "start": "Start App",
+    "loading": "Loading Data..."
+  },
+  "tutorial": {
+    "steps": [
+      "This is the start screen.\nHere you can find the latest news.",
+      "On the 2nd page, you can find the calendar so you won't miss any event!",
+      "On the 3rd page, you'll find a list of all features.",
+      "You use a particular feature often?\nYou can tap on the heart to add it to the start screen.",
+      "All features you liked will appear here on the top.",
+      "That's it! :)"
+    ],
+    "skip": "Skip",
+    "next": "Next",
+    "done": "Done"
+  },
+  "main": {
+    "bottomBar": [
+      "Home",
+      "Calendar",
+      "Features",
+      "Settings"
+    ],
+    "home": {
+      "nextEvents": {
+        "one": "Next Event",
+        "other": "Next Events"
+      },
+      "news": "News"
+    },
+    "calendar": {
+      "title": "Calendar",
+      "events": "Events"
+    },
+    "features": {
+      "title": "Features",
+      "info": "You often use a feature?\nYou can tap on the heart to add it to the start screen."
+    },
+    "settings": {
+      "title": "Settings",
+      "language": "Language",
+      "account": "OVGU Account",
+      "sync": "Synchronization",
+      "reset": "Reset Data",
+      "licenses": "Licenses",
+      "about": "About the app",
+      "dev": "Developer Settings"
+    }
+  },
+  "about": {
+    "title": "About the app",
+    "main": "The @:meta.appName app is an initiative of the Otto-von-Guericke University Magdeburg. The goal is to make everyday student life easier - especially for international students.",
+    "idea": {
+      "title": "Idea",
+      "people": [
+        "M.A. Anne-Katrin Güldenpfennig",
+        "Christin Scheil",
+        "IKUS",
+        "Dormitory Advisors of the Studentenwerk",
+        "Fachschaftsrat Informatik"
+      ]
+    },
+    "technicalImplementation": {
+      "title": "Technical Implementation",
+      "people": [
+        "Tien Do Nam<br>August 2020 - today<br>former Student at FIN<br><a href=\"https://tiendonam.de\">tiendonam.de</a>"
+      ]
+    },
+    "contribute": "This app is open source.<br>You can checkout the code <a href=\"https://github.com/Tienisto/ikus-app\">here</a>.<br>Feel free to create an <a href=\"https://github.com/Tienisto/ikus-app/issues\">issue</a> or a <a href=\"https://github.com/Tienisto/ikus-app/pulls\">pull request</a>."
+  },
+  "contacts": {
+    "title": "Contacts"
+  },
+  "event": {
+    "title": "Event",
+    "registration": {
+      "title": "Registration",
+      "slots": "$registered/$slots People",
+      "status": {
+        "open": "OPEN",
+        "registered": "REGISTERED",
+        "waitingList": "WAITING LIST ($position)",
+        "full": "FULL",
+        "closed": "CLOSED"
+      },
+      "register": "Register",
+      "cancel": "Cancel",
+      "canceling": "Canceling..."
+    },
+    "when": "When?",
+    "to": "to",
+    "where": "Where?"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "search": "Search Question...",
+    "suggestions": "Suggestions",
+    "noResults": "No Results."
+  },
+  "handbook": {
+    "title": "Handbook",
+    "wip": "Handbook is in progress."
+  },
+  "links": {
+    "title": "Useful Links"
+  },
+  "mails": {
+    "title": "Emails",
+    "alpha": "Still in alpha. Optimizations are coming.",
+    "actions": {
+      "account": "Account",
+      "sync": "Sync",
+      "send": "Send"
+    },
+    "inbox": "Inbox",
+    "sent": "Sent",
+    "sync": "Syncing: $text",
+    "deleting": "Deleting...",
+    "replyPrefix": "from "
+  },
+  "mailMessage": {
+    "title": "Email"
+  },
+  "mailMessageSend": {
+    "title": "Send Email",
+    "from": "From",
+    "to": "To",
+    "cc": "CC",
+    "subject": "Subject",
+    "content": "Content",
+    "send": "Send",
+    "sending": "Sending Email...",
+    "errors": {
+      "missingFrom": "From address missing",
+      "missingTo": "To address missing",
+      "missingSubject": "Subject missing",
+      "missingContent": "Content missing"
+    }
+  },
+  "map": {
+    "title": "Campus Map",
+    "main": "Main Campus",
+    "med": "Medicine Campus"
+  },
+  "mensa": {
+    "title": "Mensa",
+    "locations": {
+      "uniCampusDown": "UniCampus\nGround Floor",
+      "uniCampusUp": "UniCampus\nUpper Floor",
+      "zschokke": "Café\nZschokkestraße",
+      "herrenkrug": "Café\nHerrenkrug",
+      "pier16": "Café\nPier 16"
+    },
+    "lastUpdate": "Last Update: $timestamp",
+    "today": "Today, $date",
+    "tomorrow": "Tomorrow, $date",
+    "noData": "No data available...",
+    "tags": {
+      "vegan": "Vegan",
+      "vegetarian": "Vegetarian",
+      "garlic": "Garlic",
+      "fish": "Fish",
+      "chicken": "Chicken",
+      "beef": "Beef",
+      "pig": "Pig",
+      "soup": "Soup",
+      "alcohol": "Alcohol",
+      "sides": "Sides"
+    }
+  },
+  "myEvents": {
+    "title": "My Events",
+    "info": "You can select events which are important to you. These events appear here and under \"Next Events\" on the start screen."
+  },
+  "registerEvent": {
+    "title": "Register",
+    "matriculationNumber": "Matriculation No.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "address": "Address",
+    "country": "Home Country",
+    "register": "Register",
+    "registering": "Registering...",
+    "disclaimer": "The data will not be passed on to third parties. The data is deleted as soon as it is no longer required to achieve the purpose for which it was collected.",
+    "errors": {
+      "validation": "Please fill in all fields.",
+      "closed": "Registration closed.",
+      "full": "Full."
+    }
+  },
+  "ovguAccount": {
+    "title": "OVGU Account",
+    "info": "You can access your mails as soon as you setup the OVGU account.",
+    "loginCredentials": "Login Credentials",
+    "name": "Name",
+    "password": "Password",
+    "login": "Login",
+    "loggedInAs": "Logged in as",
+    "logout": "Logout",
+    "privacy": "Your login credentials will be encrypted and only stored on your device.",
+    "authenticating": "Authenticating"
+  },
+  "audioList": {
+    "title": "Audio Guides",
+    "empty": "Work in progress."
+  },
+  "audio": {
+    "title": "Audio Guide"
+  },
+  "post": {
+    "title": "Post"
+  },
+  "sync": {
+    "title": "Synchronization",
+    "info": "This app regularly downloads data from the server to keep you up to date. You can use the app offline using the locally stored data.",
+    "items": {
+      "news": "News",
+      "calendar": "Calendar",
+      "mensa": "Mensa",
+      "links": "Links",
+      "handbook": "Handbook",
+      "audio": "Audio",
+      "faq": "FAQ",
+      "contact": "Contacts",
+      "emails": "Emails",
+      "appConfig": "App Configuration"
+    }
+  },
+  "dev": {
+    "title": "Developer Settings"
+  },
+  "changeLanguage": {
+    "title": "Loading English Data..."
+  },
+  "components": {
+    "eventCard": {
+      "noPlace": "No location specified"
+    },
+    "mapWithMarker": {
+      "openMapApp": "Navigation"
+    }
+  },
+  "popups": {
+    "channel": {
+      "title": "Channels",
+      "all": "All"
+    },
+    "date": {
+      "normal": "Following events are on this day:",
+      "empty": "There are no events on this day."
+    },
+    "error": {
+      "title": "An error occurred.",
+      "ok": "OK"
+    },
+    "eventAdded": {
+      "title": "Event added",
+      "content": "\"$event\" has been added to your personal list.",
+      "undo": "Undo",
+      "list": "Show List",
+      "ok": "Okay"
+    },
+    "eventPast": {
+      "title": "Event is already over",
+      "info": "You can only add events which are in the future.",
+      "ok": "OK"
+    },
+    "eventUnregister": {
+      "title": "Delete Registration",
+      "info": "You will lose your current position.",
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "handbook": {
+      "title": "Structure",
+      "page": "P. $page"
+    },
+    "mailDelete": {
+      "title": "Delete Mail",
+      "info": "Are you sure?",
+      "delete": "Delete",
+      "cancel": "Cancel"
+    },
+    "mailPeople": {
+      "title": "People",
+      "from": "From",
+      "to": "To",
+      "cc": "CC"
+    },
+    "mensaOpeningHours": {
+      "title": "Opening Hours"
+    },
+    "needUpdate": {
+      "title": "Update needed",
+      "info": "Offline stored data will be used as long as you don't update the app to the latest version.",
+      "ok": "OK"
+    },
+    "reset": {
+      "title": "Reset Data",
+      "content": "The app will be reset to the factory settings. Continue?",
+      "reset": "Reset",
+      "cancel": "Cancel"
+    },
+    "wip": {
+      "title": "Work in progress",
+      "ok": "OK"
+    }
+  },
+  "notifications": {
+    "newMail": {
+      "title": {
+        "one": "New Mail",
+        "other": "$n new mails"
+      }
+    }
+  },
+  "timeFormat": "$time"
+}
