@@ -3,6 +3,6 @@
 
 class Env {
   static const apiUrl = 'https://welcome-app.farafin.de/api/public';
-  static const apiDevUrl = 'http://10.0.2.2:8080/api/public';
+  static const apiDevUrl = 'http://100.102.219.159:4747/api/public';
   static const jwtSecret = '123456';
 }
