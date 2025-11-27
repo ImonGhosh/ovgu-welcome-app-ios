@@ -71,6 +71,9 @@ dev_dependencies:
 
 dependency_overrides:
   intl: 0.20.2 # force compatibility with Flutter SDK and table_calendar
+  # Pin analyzer/dart_style below the macros transition to avoid missing _macros from SDK
+  analyzer: 6.4.1
+  dart_style: 2.3.6
   workmanager: # https://github.com/fluttercommunity/flutter_workmanager/issues/588
     git:
       url: https://github.com/fluttercommunity/flutter_workmanager.git
